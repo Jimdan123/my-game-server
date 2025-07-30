@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e519d22-81d0-460c-bf1c-d998588641fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/myserver/database/DBPostgre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/myserver/user/UserManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../__MACOSX/my-game-server/._.DS_Store" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../__MACOSX/my-game-server/src/._.DS_Store" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../__MACOSX/my-game-server/src/test/._.DS_Store" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simpleDB.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/myserver/MyGameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/myserver/MyGameServer.java" afterDir="false" />
@@ -29,13 +30,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -45,24 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UtilTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UtilTest.readShort1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UtilTest.readShort2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UtilTest.runAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/khangnguyen/Documents/my-game-server/my-game-server/pom.xml&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.UserManagerTest.checkUserName.executor": "Run",
+    "JUnit.UserManagerTest.executor": "Run",
+    "JUnit.UtilTest.executor": "Run",
+    "JUnit.UtilTest.readShort1.executor": "Run",
+    "JUnit.UtilTest.readShort2.executor": "Run",
+    "JUnit.UtilTest.runAllTest.executor": "Run",
+    "JUnit.UtilTest.runAllTestForReadShort.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/khangnguyen/Documents/my-game-server/my-game-server/pom.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/io/myserver/database" />
@@ -72,6 +79,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.myserver.user" />
       <recent name="io.myserver" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -93,48 +101,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-game-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.myserver.*" />
+          <option name="PATTERN" value="io.myserver.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.myserver" />
-      <option name="MAIN_CLASS_NAME" value="io.myserver.UtilTest" />
+      <option name="PACKAGE_NAME" value="io.myserver.user" />
+      <option name="MAIN_CLASS_NAME" value="io.myserver.user.UserManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilTest.readShort1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserManagerTest.checkUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-game-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.myserver.*" />
+          <option name="PATTERN" value="io.myserver.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.myserver" />
-      <option name="MAIN_CLASS_NAME" value="io.myserver.UtilTest" />
-      <option name="METHOD_NAME" value="readShort1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilTest.readShort2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-game-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.myserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.myserver" />
-      <option name="MAIN_CLASS_NAME" value="io.myserver.UtilTest" />
-      <option name="METHOD_NAME" value="readShort2" />
+      <option name="PACKAGE_NAME" value="io.myserver.user" />
+      <option name="MAIN_CLASS_NAME" value="io.myserver.user.UserManagerTest" />
+      <option name="METHOD_NAME" value="checkUserName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,13 +148,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UtilTest.runAllTestForReadShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-game-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.myserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.myserver" />
+      <option name="MAIN_CLASS_NAME" value="io.myserver.UtilTest" />
+      <option name="METHOD_NAME" value="runAllTestForReadShort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserManagerTest" />
+        <item itemvalue="JUnit.UserManagerTest.checkUserName" />
+        <item itemvalue="JUnit.UtilTest.runAllTestForReadShort" />
         <item itemvalue="JUnit.UtilTest.runAllTest" />
-        <item itemvalue="JUnit.UtilTest" />
-        <item itemvalue="JUnit.UtilTest.readShort2" />
-        <item itemvalue="JUnit.UtilTest.readShort1" />
       </list>
     </recent_temporary>
   </component>
@@ -176,5 +184,15 @@
       <updated>1721889415942</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
